@@ -14,7 +14,7 @@
   Ejecuto un ``git push ``para que el merge llegue a remoto. No hay ningún conflicto ya que el merge ha sido _fast forward_. _ME DOY CUENTA QUE HE REALIZADO EL MERGE AL REVÉS. MAIN HA ABSORBIDO A STYLED Y NO STYLED A MAIN_ volvemos a empezar.
 
   Me estoy volviendo majara. Intento hacer un ``git merge main`` pero me dice already up to date cuando realmente sabemos que no es así ya que el origin/head está en el commit anterior a styled así como main y origin/main. Con lo fácil que es hacerlo con github (cara que llora). Saco el ``git log--graph`` y evidentemente no está mergeado, entonces porque me dice que todo already up to date? Esto van a ser unas crónicas más que unas simples respuestas a las preguntas. ¿Es una pregunta trampa? ¿Este es el conflicto? No, el conflicto tiene que ser las lineas modificadas que tiene style que no están en main. Lloro. Empiezo a pensar que aquí hay trampa.
-
+  
 - El merge del paso 19, ¿Causó algún conflicto? ¿Por qué?
 
   Así que era trampa eh, madre mia no sabes tu las veces que he borrado y vuelto a hacer todo porque no entendía que diantres estaba pasando. El merge del paso 19 evidentemente causa conflicto porque htmlify tiene un código distinto al que tiene styled así que github nos llama y nos dice: "oye chavales, arreglad esto porque yo no trabajo gratis", y nos pone en pantalla los detalles de su crisis existencial.
